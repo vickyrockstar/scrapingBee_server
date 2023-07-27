@@ -35,7 +35,7 @@ get(queryLink).then(function (response) {
     res.status(200)
 res.json({res: text, url: queryLink})
 
-}).catch((e) => console.log('A problem occurs : ' + e.response.data));
+}).catch((e) => console.log('A problem occurs : ' + e));
 
 //
 })
